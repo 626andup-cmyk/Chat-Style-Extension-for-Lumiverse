@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0",
+  "name": "Symmetrical Multi-Message Simulator",
+  "identifier": "symmetrical_multi_message",
+  "author": "Local Developer",
+  "github": "https://github.com/<your-username>/lumiverse-multi-message-tester",
+  "homepage": "https://github.com/<your-username>/lumiverse-multi-message-tester",
+  "description": "Queue multiple outgoing messages before sending (with a 30s auto-flush timer), and split AI replies containing <cht> tags into staggered bubbles.",
+  "permissions": ["chat_mutation", "generation", "chats"],
+  "entry_frontend": "dist/frontend.js",
+  "entry_backend": "dist/backend.js"
+}
